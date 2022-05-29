@@ -1,0 +1,40 @@
+==27983== Jump to the invalid address stated on the next line
+==27983==    at 0x556: ???
+==27983==    by 0x4005BF1: open_verify.constprop.7 (dl-load.c:1723)
+==27983==    by 0x40063B7: open_path (dl-load.c:2051)
+==27983==    by 0x4009338: _dl_map_object (dl-load.c:2291)
+==27983==    by 0x400E4C1: openaux (dl-deps.c:63)
+==27983==    by 0x401BE4A: _dl_catch_exception (dl-error-skeleton.c:196)
+==27983==    by 0x400E83A: _dl_map_object_deps (dl-deps.c:249)
+==27983==    by 0x4003EC5: dl_main (rtld.c:1726)
+==27983==    by 0x401AF4F: _dl_sysdep_start (dl-sysdep.c:253)
+==27983==    by 0x4002127: _dl_start_final (rtld.c:414)
+==27983==    by 0x4002127: _dl_start (rtld.c:521)
+==27983==    by 0x4001097: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+==27983==    by 0x9: ???
+==27983==    by 0x1FFEFFFDBA: ???
+==27983==    by 0x1FFEFFFDE8: ???
+==27983==    by 0x1FFEFFFDF1: ???
+==27983==    by 0x1FFEFFFE00: ???
+==27983==  Address 0x556 is not stack'd, malloc'd or (recently) free'd
+==27983== 
+==27983== 
+==27983== Process terminating with default action of signal 11 (SIGSEGV): dumping core
+==27983==  Bad permissions for mapped region at address 0x556
+==27983==    at 0x556: ???
+==27983==    by 0x4005BF1: open_verify.constprop.7 (dl-load.c:1723)
+==27983==    by 0x40063B7: open_path (dl-load.c:2051)
+==27983==    by 0x4009338: _dl_map_object (dl-load.c:2291)
+==27983==    by 0x400E4C1: openaux (dl-deps.c:63)
+==27983==    by 0x401BE4A: _dl_catch_exception (dl-error-skeleton.c:196)
+==27983==    by 0x400E83A: _dl_map_object_deps (dl-deps.c:249)
+==27983==    by 0x4003EC5: dl_main (rtld.c:1726)
+==27983==    by 0x401AF4F: _dl_sysdep_start (dl-sysdep.c:253)
+==27983==    by 0x4002127: _dl_start_final (rtld.c:414)
+==27983==    by 0x4002127: _dl_start (rtld.c:521)
+==27983==    by 0x4001097: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+==27983==    by 0x9: ???
+==27983==    by 0x1FFEFFFDBA: ???
+==27983==    by 0x1FFEFFFDE8: ???
+==27983==    by 0x1FFEFFFDF1: ???
+==27983==    by 0x1FFEFFFE00: ???

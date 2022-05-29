@@ -1,0 +1,1 @@
+install-pkg install libcurl4-gnutls-dev

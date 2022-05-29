@@ -1,0 +1,46 @@
+==28324== Jump to the invalid address stated on the next line
+==28324==    at 0x556: ???
+==28324==    by 0x5D9567F: ??? (in /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1)
+==28324==    by 0x400A937: check_match (dl-lookup.c:93)
+==28324==    by 0x400A937: do_lookup_x (dl-lookup.c:406)
+==28324==    by 0x400B39E: _dl_lookup_symbol_x (dl-lookup.c:813)
+==28324==    by 0x400CCA8: elf_machine_rela (dl-machine.h:308)
+==28324==    by 0x400CCA8: elf_dynamic_do_Rela (do-rel.h:137)
+==28324==    by 0x400CCA8: _dl_relocate_object (dl-reloc.c:258)
+==28324==    by 0x4004326: dl_main (rtld.c:2190)
+==28324==    by 0x401AF4F: _dl_sysdep_start (dl-sysdep.c:253)
+==28324==    by 0x4002127: _dl_start_final (rtld.c:414)
+==28324==    by 0x4002127: _dl_start (rtld.c:521)
+==28324==    by 0x4001097: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+==28324==    by 0xA: ???
+==28324==    by 0x1FFEFFFDBE: ???
+==28324==    by 0x1FFEFFFDEC: ???
+==28324==    by 0x1FFEFFFDF6: ???
+==28324==    by 0x1FFEFFFE04: ???
+==28324==    by 0x1FFEFFFE10: ???
+==28324==    by 0x1FFEFFFE1D: ???
+==28324==  Address 0x556 is not stack'd, malloc'd or (recently) free'd
+==28324== 
+==28324== 
+==28324== Process terminating with default action of signal 11 (SIGSEGV): dumping core
+==28324==  Bad permissions for mapped region at address 0x556
+==28324==    at 0x556: ???
+==28324==    by 0x5D9567F: ??? (in /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1)
+==28324==    by 0x400A937: check_match (dl-lookup.c:93)
+==28324==    by 0x400A937: do_lookup_x (dl-lookup.c:406)
+==28324==    by 0x400B39E: _dl_lookup_symbol_x (dl-lookup.c:813)
+==28324==    by 0x400CCA8: elf_machine_rela (dl-machine.h:308)
+==28324==    by 0x400CCA8: elf_dynamic_do_Rela (do-rel.h:137)
+==28324==    by 0x400CCA8: _dl_relocate_object (dl-reloc.c:258)
+==28324==    by 0x4004326: dl_main (rtld.c:2190)
+==28324==    by 0x401AF4F: _dl_sysdep_start (dl-sysdep.c:253)
+==28324==    by 0x4002127: _dl_start_final (rtld.c:414)
+==28324==    by 0x4002127: _dl_start (rtld.c:521)
+==28324==    by 0x4001097: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+==28324==    by 0xA: ???
+==28324==    by 0x1FFEFFFDBE: ???
+==28324==    by 0x1FFEFFFDEC: ???
+==28324==    by 0x1FFEFFFDF6: ???
+==28324==    by 0x1FFEFFFE04: ???
+==28324==    by 0x1FFEFFFE10: ???
+==28324==    by 0x1FFEFFFE1D: ???
